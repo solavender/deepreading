@@ -1,0 +1,13 @@
+interface:
+  display_name: PDF 阅读工作流
+  short_description: 将 PDF 提取、按需翻译，并在选择四种风格后生成可批注的 HTML 阅读器
+  default_prompt: 使用 $pdf-reading-workflow 处理这份 PDF，完成文本处理后让我选择阅读器风格，再生成 HTML 阅读器。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
